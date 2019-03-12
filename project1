@@ -1,0 +1,17 @@
+#!/bin/python3
+
+#Basic print
+print('Hello!')
+
+#Usage of backslash
+print('Here\'s a picture of a dog:')
+print('o___')
+print('||||')
+
+#Basic info print
+print('My favourite animal is tiger')
+print('o_###_')
+print('  | |   #')
+print('I live somewhere on earth')
+print(' _|_ ')
+print('|   |')
