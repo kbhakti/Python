@@ -40,3 +40,16 @@ More lines - changing the number of times a loop repeats;
 Race times - adding more turtles, includes adding code inside a loop;
 Do a twirl - make turtles spin round at the start by writing new for loops;
 Dashed lines - change solid lines into dashed lines, requires a nested loop.
+
+#Project4 - Team Chooser
+
+Introduction: This project will help to learn how to make a program to split a list of players into 2 random teams. This project teaches lists and using files.
+
+Learning Objectives : Lists, Loading list data from a file.
+
+Challenges:
+“Adding more players” - adding elements to a players list;
+“Choosing for team B” - creating a new teamB list to add random players to;
+“Random team names” - creating and using a new teamNames list to assign random names to teams;
+“Storing team names” - storing team names in a file, and loading them into a teamNames variable;
+“More teams” - splitting players into 3 teams instead of 2.
