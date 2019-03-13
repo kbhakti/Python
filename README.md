@@ -53,3 +53,16 @@ Challenges:
 “Random team names” - creating and using a new teamNames list to assign random names to teams;
 “Storing team names” - storing team names in a file, and loading them into a teamNames variable;
 “More teams” - splitting players into 3 teams instead of 2.
+
+#Project5 - Colourful Creations
+
+Introduction: This project introduces dictionaries by creating a dictionary that maps from human-friendly colour names to hex codes. The colour codes are then looked up in the dictionary and used to create a colourful poster.
+
+Learning Objectives :
+Dictionaries - creating and looking up values;
+Turtle graphics - text, fonts and colours;
+
+Challenges :
+More colours! - Use a colour picker website to find hexcodes for more colours and add them to a dictionary.
+Create a poster - Create a custom colour palette dictionary and use it to create a poster using Turtle graphics.
+
