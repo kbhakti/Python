@@ -66,3 +66,19 @@ Challenges :
 More colours! - Use a colour picker website to find hexcodes for more colours and add them to a dictionary.
 Create a poster - Create a custom colour palette dictionary and use it to create a poster using Turtle graphics.
 
+#project6 - Secret Messages
+
+Introduction: This project helps to earn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+ 
+Learning Objectives :
+Iteration (looping) over a string variable;
+The find() method;
+The modulus operator (%).
+
+Challenges
+
+Use a Caesar cipher - encrypy and decrypt letters and words manually;
+Variable keys - allowing the user to input a chosen key;
+Encrypting and decrypting messages - encrypting and decrypting whole messages;
+Friendship calculator - applying text iteration to a new problem.
+
