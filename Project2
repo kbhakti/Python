@@ -1,0 +1,65 @@
+#!/bin/python3
+
+from random import randint
+
+print('Rock, paper or scissors Game\n')
+print('Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:')
+print('\nRock blunts scissors') #\n to add new line
+print('Paper covers rock')
+print('Scissors cut paper\n')
+  
+player = input('rock (r), paper (p) or scissors (s)?')
+
+if player == 'r':
+  print('(r)', end=' ')#tells Python to end with a space instead of a new line
+  
+elif player == 'p':
+  print('(p)', end=' ')
+  
+elif player == 's':
+  print('(s)', end=' ')
+  
+else:
+  print('??')
+  
+print('vs', end=' ')
+
+chosen = randint(1,3)
+
+if chosen == 1 :
+  computer = 'r'
+  print('(r)')
+  
+elif chosen == 2 :
+  computer = 'p'
+  print('(p)')
+  
+else:
+  computer = 's'
+  print('(s)')
+
+if player == computer:
+  print('DRAW!')
+  
+elif player == 'r' and computer == 's':
+  print('Player wins!')
+  
+elif player == 'r' and computer == 'p':
+  print('Computer wins!')
+  
+elif player == 'p' and computer == 'r':
+  print('Player wins!')
+  
+elif player == 'p' and computer == 's':
+  print('Computer wins!')
+
+elif player == 's' and computer == 'p':
+  print('Player wins!')
+  
+elif player == "s" and computer == 'r':
+  print('Computer wins!')
+
+else:
+  print('Huh?')
+  
+  
